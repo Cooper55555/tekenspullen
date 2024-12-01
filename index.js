@@ -1,9 +1,13 @@
 let availableKeywords = [
+    'BIC gel-o-city gelpen',
+    'Copic Sketch Markers',
+    'Copic Ciao Markers',
+    'Copic Original Markers',
     'Derwent Lightfast Kleurpotlood',
     'Derwent Tinted Charcoal Houtskoolpotlood',
     'Derwent Drawing Tekenpotlood',
     'Derwent Graphitint Kleurpotlood',
-    'BIC gel-o-city gelpen',
+    'Faber Castell Polychromos',
 ];
 
 const resultsBox = document.querySelector(".result-box");
@@ -65,6 +69,22 @@ button.addEventListener('click', function() {
     if (input === "BIC gel-o-city gelpen") {
         BICgelocitygelpen();
     }
+
+    if (input === "Copic Original Markers") {
+        CopicOriginalMarkers();
+    }
+
+    if (input === "Copic Ciao Markers") {
+        CopicCiaoMarkers();
+    }
+
+    if (input === "Copic Sketch Markers") {
+        CopicSketchMarkers();
+    }
+
+    if (input === "Faber Castell Polychromos") {
+        FaberCastellPolychromos();
+    }
 });
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -95,6 +115,10 @@ function DerwentTintedCharcoalHoutskoolpotlood() {
     document.getElementById("biggest-container3").style.display = "none";
     document.getElementById("biggest-container4").style.display = "none";
     document.getElementById("biggest-container5").style.display = "none";
+    document.getElementById("biggest-container6").style.display = "none";
+    document.getElementById("biggest-container7").style.display = "none";
+    document.getElementById("biggest-container8").style.display = "none";
+    document.getElementById("biggest-container9").style.display = "none";
     document.getElementById("Buttons").style.display = "none";
 }
 
@@ -104,6 +128,10 @@ function DerwentDrawingTekenpotlood() {
     document.getElementById("biggest-container3").style.display = "block";
     document.getElementById("biggest-container4").style.display = "none";
     document.getElementById("biggest-container5").style.display = "none";
+    document.getElementById("biggest-container6").style.display = "none";
+    document.getElementById("biggest-container7").style.display = "none";
+    document.getElementById("biggest-container8").style.display = "none";
+    document.getElementById("biggest-container9").style.display = "none";
     document.getElementById("Buttons").style.display = "none";
 }
 
@@ -113,6 +141,10 @@ function DerwentGraphitintKleurpotlood() {
     document.getElementById("biggest-container3").style.display = "none";
     document.getElementById("biggest-container4").style.display = "block";
     document.getElementById("biggest-container5").style.display = "none";
+    document.getElementById("biggest-container6").style.display = "none";
+    document.getElementById("biggest-container7").style.display = "none";
+    document.getElementById("biggest-container8").style.display = "none";
+    document.getElementById("biggest-container9").style.display = "none";
     document.getElementById("Buttons").style.display = "none";
 }
 
@@ -122,6 +154,62 @@ function BICgelocitygelpen() {
     document.getElementById("biggest-container3").style.display = "none";
     document.getElementById("biggest-container4").style.display = "none";
     document.getElementById("biggest-container5").style.display = "block";
+    document.getElementById("biggest-container6").style.display = "none";
+    document.getElementById("biggest-container7").style.display = "none";
+    document.getElementById("biggest-container8").style.display = "none";
+    document.getElementById("biggest-container9").style.display = "none";
+    document.getElementById("Buttons").style.display = "none";
+}
+
+function CopicSketchMarkers() {
+    document.getElementById("biggest-container1").style.display = "none";
+    document.getElementById("biggest-container2").style.display = "none";
+    document.getElementById("biggest-container3").style.display = "none";
+    document.getElementById("biggest-container4").style.display = "none";
+    document.getElementById("biggest-container5").style.display = "none";
+    document.getElementById("biggest-container6").style.display = "block";
+    document.getElementById("biggest-container7").style.display = "none";
+    document.getElementById("biggest-container8").style.display = "none";
+    document.getElementById("biggest-container9").style.display = "none";
+    document.getElementById("Buttons").style.display = "none";
+}
+
+function CopicCiaoMarkers() {
+    document.getElementById("biggest-container1").style.display = "none";
+    document.getElementById("biggest-container2").style.display = "none";
+    document.getElementById("biggest-container3").style.display = "none";
+    document.getElementById("biggest-container4").style.display = "none";
+    document.getElementById("biggest-container5").style.display = "none";
+    document.getElementById("biggest-container6").style.display = "none";
+    document.getElementById("biggest-container7").style.display = "block";
+    document.getElementById("biggest-container8").style.display = "none";
+    document.getElementById("biggest-container9").style.display = "none";
+    document.getElementById("Buttons").style.display = "none";
+}
+
+function CopicOriginalMarkers() {
+    document.getElementById("biggest-container1").style.display = "none";
+    document.getElementById("biggest-container2").style.display = "none";
+    document.getElementById("biggest-container3").style.display = "none";
+    document.getElementById("biggest-container4").style.display = "none";
+    document.getElementById("biggest-container5").style.display = "none";
+    document.getElementById("biggest-container6").style.display = "none";
+    document.getElementById("biggest-container7").style.display = "none";
+    document.getElementById("biggest-container8").style.display = "block";
+    document.getElementById("biggest-container9").style.display = "none";
+    document.getElementById("Buttons").style.display = "none";
+}
+
+function FaberCastellPolychromos() {
+    document.getElementById("biggest-container1").style.display = "none";
+    document.getElementById("biggest-container2").style.display = "none";
+    document.getElementById("biggest-container3").style.display = "none";
+    document.getElementById("biggest-container4").style.display = "none";
+    document.getElementById("biggest-container5").style.display = "none";
+    document.getElementById("biggest-container6").style.display = "none";
+    document.getElementById("biggest-container7").style.display = "none";
+    document.getElementById("biggest-container8").style.display = "none";
+    document.getElementById("biggest-container9").style.display = "block";
     document.getElementById("Buttons").style.display = "none";
 }
 
@@ -131,5 +219,9 @@ function home() {
     document.getElementById("biggest-container3").style.display = "none";
     document.getElementById("biggest-container4").style.display = "none";
     document.getElementById("biggest-container5").style.display = "none";
+    document.getElementById("biggest-container6").style.display = "none";
+    document.getElementById("biggest-container7").style.display = "none";
+    document.getElementById("biggest-container8").style.display = "none";
+    document.getElementById("biggest-container9").style.display = "none";
     document.getElementById("Buttons").style.display = "block";
 }
